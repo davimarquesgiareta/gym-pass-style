@@ -30,3 +30,12 @@ GymPass style app.
 - [] Os dados da aplicação precisam estar persistidos em um banco PostreSQL;
 - [] Todas listas de dados precisam estar paginadas com 20 itens por páginas;
 - [] O usuário deve ser identificado por um JWT (JSON Web Token);
+
+
+## DOCKER 
+docker compose up -d   (rodar o container)
+docker ps              (ver os containers que estão rodando)
+
+
+## PRISMA
+npx prisma studio      (rodar o prisma em modo navegador para ver as tabelas criadas)
