@@ -33,9 +33,9 @@ GymPass style app.
 
 
 ## DOCKER 
-docker compose up -d   (rodar o container)
-docker ps              (ver os containers que estão rodando)
+- docker compose up -d   (rodar o container)
+- docker ps              (ver os containers que estão rodando)
 
 
 ## PRISMA
-npx prisma studio      (rodar o prisma em modo navegador para ver as tabelas criadas)
+- npx prisma studio      (rodar o prisma em modo navegador para ver as tabelas criadas)
