@@ -4,7 +4,7 @@ GymPass style app.
 
 ## RFs (Requisitos funcionais)
 
-- [] Deve ser possível se cadastras;
+- [x] Deve ser possível se cadastras;
 - [] Deve ser possível se autenticar;
 - [] Deve ser possível obter o perfil de um usuário logado;
 - [] Deve ser possível obter o número de check-ins realizados pelo usuáro logado;
@@ -17,7 +17,7 @@ GymPass style app.
 
 ## RNs (Regras de negócio)
 
-- [] O usuário não deve poder se cadatrar com um e-mail duplicado;
+- [x] O usuário não deve poder se cadatrar com um e-mail duplicado;
 - [] O usuário não pode fazer 2 check-ins no mesmo dia;
 - [] O usuário não pode fazer check-in se não estiver perto (100m) da academia;
 - [] O check-in só pode ser validado até 20 minutos após criado;
@@ -26,8 +26,8 @@ GymPass style app.
 
 ## RFs (Requisitos não-funcionais)
 
-- [] A senha do usuário precisa estar criptografada;
-- [] Os dados da aplicação precisam estar persistidos em um banco PostreSQL;
+- [x] A senha do usuário precisa estar criptografada;
+- [x] Os dados da aplicação precisam estar persistidos em um banco PostreSQL;
 - [] Todas listas de dados precisam estar paginadas com 20 itens por páginas;
 - [] O usuário deve ser identificado por um JWT (JSON Web Token);
 
